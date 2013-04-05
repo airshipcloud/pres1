@@ -1,0 +1,106 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Personal Clouds</title>
+    
+    <meta name="description" content="IntroToNode Presentation for Node Boston Meetup 3/27/12" />
+    <meta name="author" content="Le Zhang" />
+
+    <link href='http://fonts.googleapis.com/css?family=Istok+Web:400,700' rel='stylesheet' type='text/css'>
+    <link href="css/introtonode.css" rel="stylesheet" />
+    
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+</head>
+
+<body class="impress-not-supported">
+
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress">
+
+    <div id="title" class="step" data-x="-500" data-y="50">
+        <h1>Personal Cloud Services</h1>
+        <h2>Safe Data Sex for Clouds</h2>
+        <h3>Joe Johnston - @joejohnston, @airship</h3>
+    </div>
+
+    <div id="agenda" class="step" data-x="500" data-y="500">
+        <h3>Overview:</h3>
+        <h3>UX</h3>
+        <h3>remoteStorage</h3>
+        <h3>Discovery + Trust</h3>
+        <h3>Happy Happy</h3>
+    </div>
+
+    <div class="cube">
+        <div class="topFace step" data-x="0" data-y="-125" data-z="-1005" data-rotate-x="60" data-rotate-y="0" data-rotate-z="45" data-scale="0.5">
+                <h1>User Experience</h1>
+                <p>What should a user expect?</p>
+                <ul>
+                    <li>Login via their Personal Cloud</li>
+                    <li>Use common UI widgets</li>
+                    <li>Same data between apps</li>
+                </ul>
+        </div>
+        <div class="leftFace step" data-x="-125" data-y="90" data-z="-985" data-rotate-x="-30" data-rotate-y="-45" data-rotate-z="0" data-scale="0.5">
+                <h1>remoteStorage</h1>
+                <p>What it does...</p>
+                <ul>
+                    <li>OAuth for app login</li>
+                    <li>Normalized data for apps</li>
+                    <li>Simple'ish JS framework</li>
+                </ul>
+        </div>
+        <div class="rightFace step" data-x="125" data-y="90" data-z="-985" data-rotate-x="-30" data-rotate-y="45" data-rotate-z="0" data-scale="0.5">
+                <h1>remoteStorage</h1>
+                <p>What it doesn't...</p>
+                <ul>
+                    <li>Share data between users/clouds</li>
+                    <li>Best practices for UI/UX</li>
+                    <li>Fix discovery + trust</li>
+                </ul>
+        </div>
+        <div class="backRightFace step" data-x="125" data-y="-35" data-z="-1200" data-rotate-x="-30" data-rotate-y="135" data-rotate-z="0" data-scale="0.5">
+            <h1>Discovery + Trust</h1>
+            <p>Personal is OK, but<br><strong>data sex</strong> is way more fun...</p>
+            <ul>
+                <li><strong>Discovery:</strong> XDI registry</li>
+                <li><strong>Trust:</strong> register identifiers</li>
+                <li><strong>Channels:</strong> cloud to cloud sharing</li>
+                <li><strong>UI:</strong> contacts, messaging, etc.</li>
+            </ul>
+        </div>
+        <div class="backLeftFace step" data-x="-125" data-y="-35" data-z="-1200" data-rotate-x="-30" data-rotate-y="225" data-rotate-z="0" data-scale="0.5">
+                <h1>Safe Sharing</h1>
+                <p>We just need a few things...</p>
+                <ul>
+                    <li>P/C with standard services</li>
+                    <li>Reverse lookup for P/C</li>
+                    <li>JavaScript lib for services</li>
+                </ul>
+        </div>
+        <div class="bottomFace step" data-x="0" data-y="180" data-z="-1180" data-rotate-x="60" data-rotate-y="180" data-rotate-z="45" data-scale="0.5">
+                <h1>Get Involved</h1>
+                <ul>
+                    <li><a href="http://airship.io">http://airship.io</a></li>
+                    <li><a href="http://twitter.com/airship">@airship</a></li>
+                    <li><a href="http://twitter.com/joejohnston">@joejohnston</a></li>
+                </ul>
+        </div>
+    </div>
+
+</div>
+
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
+</body>
+</html>
